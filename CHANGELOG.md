@@ -167,7 +167,7 @@ All notable changes to the **OpenSource Clipping** project will be documented in
   - **Shared API Client** (`pages/studio/api.js`): IIFE module handling all backend communication — no build tools required.
   - **Kaggle Notebook** (`notebooks/Kaggle_Studio_Server.ipynb`): Ready-to-run notebook that starts the FastAPI backend and creates an ngrok tunnel. Compatible with both Kaggle Secrets and Colab userdata.
   - **Design**: Pure HTML/CSS/JS with Tailwind CDN, Inter/Outfit fonts, Lucide icons, glassmorphism cards, light/dark mode toggle, responsive sidebar layout, and smooth micro-animations.
-  - Added `https://naufalrizqullah.github.io` to CORS origins in `web/api/app.py`.
+  - Added `https://ronnie1627.github.io` to CORS origins in `web/api/app.py`.
   - Added "🎬 Clipping Studio" navigation link and "Open Studio" button to landing page (`pages/index.html`).
 
 ---

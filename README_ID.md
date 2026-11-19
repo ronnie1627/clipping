@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/NaufalRizqullah/opensource-clipping">
+  <a href="https://github.com/ronnie1627/clipping">
     <img src="assets/images/opensource-clipping-logo-editable.svg" alt="Logo" width="350">
   </a>
 
@@ -13,9 +13,9 @@
     <br />
     <a href="README.md">🇬🇧 Read in English</a>
     &middot;
-    <a href="https://github.com/NaufalRizqullah/opensource-clipping/issues/new">Laporkan Bug</a>
+    <a href="https://github.com/ronnie1627/clipping/issues/new">Laporkan Bug</a>
     &middot;
-    <a href="https://github.com/NaufalRizqullah/opensource-clipping/issues/new">Minta Fitur Baru</a>
+    <a href="https://github.com/ronnie1627/clipping/issues/new">Minta Fitur Baru</a>
   </p>
 </div>
 
@@ -114,7 +114,7 @@ WHISPER_COMPUTE_TYPE = "float32"
 
 **Clipping Studio** adalah dashboard berbasis browser yang di-hosting gratis di **GitHub Pages** dan terhubung ke notebook Kaggle/Colab sebagai backend — memberikan GUI lengkap untuk mengontrol pipeline AI clipping tanpa setup lokal.
 
-**🔗 Buka Studio:** [naufalrizqullah.github.io/opensource-clipping/studio/](https://naufalrizqullah.github.io/opensource-clipping/studio/)
+**🔗 Buka Studio:** [ronnie1627.github.io/clipping/studio/](https://ronnie1627.github.io/clipping/studio/)
 
 **🎥 Video Panduan:**
 
@@ -140,7 +140,7 @@ WHISPER_COMPUTE_TYPE = "float32"
 
 1. **Jalankan backend** — Buka versi terbaru [`notebooks/kaggle-studio-server.ipynb`](notebooks/kaggle-studio-server.ipynb) di Kaggle (atau Colab), aktifkan Internet dan GPU, tambahkan API key ke Secrets, lalu jalankan cell berurutan. **Prepare Python 3.12** menyiapkan interpreter terpisah sehingga kernel notebook Python 3.13 tetap dapat dipakai tanpa diganti. Notebook menyimpan environment di luar Output secara default. Pilih profil Torch CPU bila ingin memperkecil instalasi Studio. Biarkan `START_LOCAL_VLLM=False` untuk Gemini/NVIDIA, atau aktifkan untuk menyiapkan Gemma 4 Q4 dalam environment server terpisah beserta evaluasi singkatnya. **Public URL** baru muncul setelah pemeriksaan kesiapan backend berhasil. Lihat [panduan setup dan troubleshooting](docs/KAGGLE_STUDIO.md).
 
-2. **Buka Studio** — Kunjungi [halaman Studio](https://naufalrizqullah.github.io/opensource-clipping/studio/) di browser.
+2. **Buka Studio** — Kunjungi [halaman Studio](https://ronnie1627.github.io/clipping/studio/) di browser.
 
 3. **Connect** — Klik tombol **Connect** di sidebar, paste URL tunnel, lalu klik **Test & Connect**.
 
@@ -782,7 +782,7 @@ bash cleanup.sh
 
 Feel free for contributing, support, fork, likes, dll. Dukungan Anda sangat berarti untuk terus mengembangkan proyek open-source ini.
 
-Dukung proyek ini melalui Saweria: [https://saweria.co/NaufalRizqullah17](https://saweria.co/NaufalRizqullah17)
+Dukung proyek ini melalui PayPal: [https://paypal.me/@rajeeth27](https://paypal.me/@rajeeth27)
 
 ## 📄 Lisensi
 

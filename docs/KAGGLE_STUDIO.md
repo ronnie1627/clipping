@@ -12,7 +12,7 @@ The regular Studio notebook supports Gemini/NVIDIA and an optional **vLLM + Gemm
 4. Supply secrets through Kaggle Secrets, Colab userdata, or the environment. `NGROK_AUTHTOKEN` is needed for the tunnel; Google or NVIDIA credentials depend on the selected AI provider. The notebook passes them through the process environment, without writing a `.env` file or printing their values. Existing `.env` files are ignored by this managed server.
 5. Configure the optional vLLM section as described below. With `START_LOCAL_VLLM=False`, its setup/start/eval operations are skipped; no LLM server or model is installed by that section.
 6. Run the backend server cell and keep it running. It launches Uvicorn in a **fresh Python subprocess** using `STUDIO_PYTHON`, checks `/api/ready`, and only then opens the tunnel and prints **BACKEND SERVER READY** with its Public URL.
-7. In [Studio](https://naufalrizqullah.github.io/opensource-clipping/studio/), choose **Connect**, paste the URL, and select **Test & Connect**. Pages refresh after a successful connection. A failed attempt preserves the previously saved URL.
+7. In [Studio](https://ronnie1627.github.io/clipping/studio/), choose **Connect**, paste the URL, and select **Test & Connect**. Pages refresh after a successful connection. A failed attempt preserves the previously saved URL.
 
 ### Disk space for video jobs
 

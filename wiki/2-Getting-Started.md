@@ -24,7 +24,7 @@ This guide walks you through setting up OpenSource Clipping on your local machin
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/NaufalRizqullah/opensource-clipping.git
+git clone https://github.com/ronnie1627/clipping.git
 cd opensource-clipping
 ```
 

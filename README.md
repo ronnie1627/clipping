@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/NaufalRizqullah/opensource-clipping">
+  <a href="https://github.com/ronnie1627/clipping">
     <img src="assets/images/opensource-clipping-logo-editable.svg" alt="Logo" width="350">
   </a>
 
@@ -13,9 +13,9 @@
     <br />
     <a href="README_ID.md">🇮🇩 Baca dalam Bahasa Indonesia</a>
     &middot;
-    <a href="https://github.com/NaufalRizqullah/opensource-clipping/issues/new">Report Bug</a>
+    <a href="https://github.com/ronnie1627/clipping/issues/new">Report Bug</a>
     &middot;
-    <a href="https://github.com/NaufalRizqullah/opensource-clipping/issues/new">Request Feature</a>
+    <a href="https://github.com/ronnie1627/clipping/issues/new">Request Feature</a>
   </p>
 </div>
 
@@ -116,7 +116,7 @@ WHISPER_COMPUTE_TYPE = "float32"
 
 The **Clipping Studio** is a browser-based dashboard hosted for free on **GitHub Pages** that connects to a Kaggle/Colab notebook as its backend — giving you a full GUI to control the AI clipping pipeline without any local setup.
 
-**🔗 Open Studio:** [naufalrizqullah.github.io/opensource-clipping/studio/](https://naufalrizqullah.github.io/opensource-clipping/studio/)
+**🔗 Open Studio:** [ronnie1627.github.io/clipping/studio/](https://ronnie1627.github.io/clipping/studio/)
 
 **Interface language:** Studio opens in **English (EN)** by default. Select **ID · Bahasa Indonesia** from **Language** in the sidebar (open the menu on mobile) to switch instantly. Your choice is remembered across Studio pages and browser reloads, without clearing form inputs. This changes the interface language; generated video content and backend logs keep their original language. See the [Studio translation guide](docs/STUDIO_I18N.md) for contributor details.
 
@@ -142,7 +142,7 @@ The **Clipping Studio** is a browser-based dashboard hosted for free on **GitHub
 
 1. **Start the backend** — Open the latest [`notebooks/kaggle-studio-server.ipynb`](notebooks/kaggle-studio-server.ipynb) in Kaggle (or Colab), enable Internet and a GPU, add your API keys to Secrets, and run the cells in order. **Prepare Python 3.12** supports a Python 3.13 notebook kernel by preparing a separate interpreter; the kernel stays unchanged. The notebook uses temporary storage for installed environments. Select the CPU Torch profile to further reduce Studio's disk usage. Keep `START_LOCAL_VLLM=False` for Gemini/NVIDIA, or enable it to prepare Gemma 4 Q4 in a separate server environment and run its short evaluation. The **Public URL** appears only after the backend passes readiness checks. See the [setup and troubleshooting guide](docs/KAGGLE_STUDIO.md).
 
-2. **Open the Studio** — Visit [the Studio page](https://naufalrizqullah.github.io/opensource-clipping/studio/) in your browser.
+2. **Open the Studio** — Visit [the Studio page](https://ronnie1627.github.io/clipping/studio/) in your browser.
 
 3. **Connect** — Click the **Connect** button in the sidebar, paste the tunnel URL, and click **Test & Connect**.
 
@@ -718,9 +718,4 @@ bash cleanup.sh
 
 Feel free for contributing, support, fork, likes, etc. Any feedback is greatly appreciated to keep this open-source project growing!
 
-- **Saweria:** [https://saweria.co/NaufalRizqullah17](https://saweria.co/NaufalRizqullah17)
-- **Ko-fi:** [https://ko-fi.com/naufalrizqullah](https://ko-fi.com/naufalrizqullah)
-
-## 📄 License
-
-Open source. Feel free to use, modify, and distribute.
+- **PayPal:** [https://paypal.me/@rajeeth27](https://paypal.me/rajeeth27)

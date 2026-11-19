@@ -62,5 +62,5 @@ Video URL → Download → Whisper Transcription → Gemini AI Analysis → Meta
 
 ## 🔗 Quick Links
 
-- [GitHub Repository](https://github.com/NaufalRizqullah/opensource-clipping)
-- [Changelog](https://github.com/NaufalRizqullah/opensource-clipping/blob/main/CHANGELOG.md)
+- [GitHub Repository](https://github.com/ronnie1627/clipping)
+- [Changelog](https://github.com/ronnie1627/clipping/blob/main/CHANGELOG.md)

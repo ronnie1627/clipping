@@ -7,7 +7,7 @@ We welcome contributions from everyone! Whether it's fixing a bug, adding a feat
 ## Ways to Contribute
 
 ### 🐛 Report Bugs
-Found a bug? [Open an issue](https://github.com/NaufalRizqullah/opensource-clipping/issues/new) with:
+Found a bug? [Open an issue](https://github.com/ronnie1627/clipping/issues/new) with:
 - Steps to reproduce
 - Expected vs actual behavior
 - Your environment (OS, Python version, GPU)
