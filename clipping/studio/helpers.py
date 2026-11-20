@@ -2,6 +2,8 @@
 General helper utilities for Studio rendering workflow.
 """
 
+import os
+
 
 def format_seconds(seconds):
     """
@@ -30,5 +32,10 @@ def escape_ffmpeg_filter_value(value: str) -> str:
     Returns:
         Escaped value string for FFmpeg filter usage.
     """
-    return str(value).replace("\\", r"\\").replace(":", r"\:").replace("'", r"\'")
-
+    text = str(value)
+    if os.name == "nt":
+        # FFmpeg parses filter strings in two passes (graph, then options),
+        # so the drive-letter colon needs a double escape on Windows.
+        text = text.replace("\\", "/")
+        return text.replace(":", r"\\:").replace("'", r"\\\'")
+    return text.replace("\\", r"\\").replace(":", r"\:").replace("'", r"\'")

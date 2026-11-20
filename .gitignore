@@ -37,3 +37,8 @@ logs/
 
 # YouTube Tracker local database
 youtube_tracker/*.sqlite3
+
+outputs/
+custom_fonts/
+*.ttf
+video_asli*
