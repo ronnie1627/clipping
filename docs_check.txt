@@ -1,0 +1,49 @@
+docs\index.html:5:    <meta charset="UTF-8">
+docs\index.html:6:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\index.html:9:    <meta name="description"
+docs\index.html:10:        content="Opensource Clipping is a platform for content automation, curation, and social publishing integrations. Explore Automation Clippers, our Meta Graph API publisher tool.">
+docs\index.html:98:                    Meta App Compliance
+docs\index.html:123:                Meta Platform Integration
+docs\index.html:150:        <!-- Meta Verification Dashboard Section -->
+docs\index.html:154:                    Meta App Configuration Portal
+docs\index.html:157:                    If you are setting up or auditing the <strong>Automation_Clppers</strong> app inside the Meta Developer Dashboard, use the endpoints below for mandatory validation fields.
+docs\index.html:171:                            <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">Required by Meta</span>
+docs\index.html:175:                            Provide this URL to comply with Meta App verification. Outlines how the app manages permissions, tokens, and data safety.
+docs\index.html:195:                            <span class="text-xs font-semibold uppercase tracking-wider text-sky-600 dark:text-sky-400">Required by Meta</span>
+docs\index.html:219:                            <span class="text-xs font-semibold uppercase tracking-wider text-violet-600 dark:text-violet-400">Required by Meta</span>
+docs\index.html:274:                    <strong>Automation Clippers</strong> (registered as <em>Automation_Clppers</em> in the Meta developer dashboard) is the specialized upload utility integrated into the OpenSource Clipping codebase. It securely connects to the Meta Graph API on behalf of authorized administrators to manage and publish generated short-form clips directly to Facebook Pages.
+docs\index.html:282:                    <li>Set video metadata, including custom generated titles, descriptions, and hashtags.</li>
+docs\privacy-policy.html:5:    <meta charset="UTF-8">
+docs\privacy-policy.html:6:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\privacy-policy.html:9:    <meta name="description"
+docs\privacy-policy.html:135:                    <strong>Automation Clippers</strong> (referred to as the "Application") is an open-source content publishing automation utility operating as part of the <strong>OpenSource Clipping</strong> suite (an AI auto-clipper and teaser generator). The Application connects to the Meta Graph API to facilitate publishing and scheduling of generated highlight clips/reels to Facebook Pages managed by authorized administrators.
+docs\privacy-policy.html:138:                    This Privacy Policy is designed to clearly specify how the Application interacts with Meta API tokens, what platform metrics or data points are processed, and the direct methodologies in place to request absolute data deletion.
+docs\privacy-policy.html:152:                    To operate the content publishing flows securely, the Application requests and processes the following data attributes via Meta API interfaces, subject to permissions authorized by the system administrator:
+docs\privacy-policy.html:155:                    <li><strong>Page Metadata:</strong> Facebook Page titles, identifiers, and configuration profiles.</li>
+docs\privacy-policy.html:173:                    All platform credentials, content metadata, and API responses are processed exclusively to execute the publishing operations initiated by the user or the automated OpenSource Clipping CLI tool:
+docs\privacy-policy.html:179:                    <li>Monitoring publishing receipts and post identifiers returned by the Meta Graph API.</li>
+docs\privacy-policy.html:214:                    Information is shared only with Meta Platforms, Inc. (to perform the core posting tasks) or infrastructure providers hosting the Application (e.g. database, cloud hosting), and when required by legal processes.
+docs\privacy-policy.html:228:                    We retain data records only as long as is necessary to satisfy operational logs, scheduling pipelines, and debugging histories. If an administrator detaches their Facebook account or deletes a Page connection, all corresponding local tokens and cached metadata will be permanently expunged from the application storage in a timely manner.
+docs\privacy-policy.html:243:                    In compliance with Meta Platform Terms, users and administrators have the right to request deletion of any cached information, logs, or credentials maintained by the Application.
+docs\privacy-policy.html:254:                        To request the immediate and permanent deletion of access tokens, cached metadata, Page records, or transaction logs related to your account:
+docs\privacy-policy.html:295:                    This Privacy Policy may be modified periodically to reflect updates in Facebook API guidelines, Meta compliance protocols, or operational refactoring. Changes take effect immediately upon their publication on this page.
+docs\studio\index.html:5:    <meta charset="UTF-8">
+docs\studio\index.html:7:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\studio\index.html:9:    <meta name="description" content="OpenSource Clipping Studio Dashboard — Monitor your AI auto-clipping jobs powered by Kaggle/Colab GPU." data-i18n-content="dashboard.description">
+docs\studio\job.html:5:    <meta charset="UTF-8">
+docs\studio\job.html:7:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\studio\job.html:9:    <meta name="description" content="Monitor your clipping job progress and download generated clips — OpenSource Clipping Studio" data-i18n-content="job.description">
+docs\studio\job.html:176:            { key: 'metadata' },
+docs\studio\new-job.html:5:    <meta charset="UTF-8">
+docs\studio\new-job.html:7:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\studio\new-job.html:9:    <meta name="description" content="Create a new AI auto-clipping job — OpenSource Clipping Studio" data-i18n-content="new.description">
+docs\studio\settings.html:5:    <meta charset="UTF-8">
+docs\studio\settings.html:7:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\studio\settings.html:9:    <meta name="description" content="Configure API keys and default settings — OpenSource Clipping Studio" data-i18n-content="settings.description">
+docs\terms-of-service.html:5:    <meta charset="UTF-8">
+docs\terms-of-service.html:6:    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+docs\terms-of-service.html:9:    <meta name="description"
+docs\terms-of-service.html:153:                    By activating, running, or connecting your Meta credentials to **Automation Clippers** (referred to
+docs\terms-of-service.html:174:                    utility to access Facebook Pages through the Meta Graph API. The tool automates uploading, metadata
+docs\terms-of-service.html:268:                    <li>Meta's API will support the uploader without rate-limiting or policy changes that may disrupt
+docs\terms-of-service.html:291:                    if we suspect the Application is being utilized in violation of Meta Guidelines, for malicious
