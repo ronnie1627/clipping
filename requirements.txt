@@ -23,3 +23,5 @@ uvicorn
 python-multipart
 pydantic
 edge-tts
+
+av==16.1.0
